@@ -1,0 +1,14 @@
+{
+  "server": "gmail",
+  "people": {
+    "123456789012345678": "Alice",
+    "234567890123456789": "Bob"
+  },
+  "inboxes": {
+    "alice": "Alice's inbox (alice@example.com)",
+    "bob": "Bob's inbox (bob@example.com)"
+  },
+  "cron": {
+    "abc123def456": ["alice"]
+  }
+}

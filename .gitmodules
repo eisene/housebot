@@ -1,3 +1,6 @@
 [submodule "hermes-gmail-guard"]
 	path = hermes-gmail-guard
 	url = https://github.com/eisene/hermes-gmail-guard.git
+[submodule "gmail-multi-mcp"]
+	path = gmail-multi-mcp
+	url = https://github.com/eisene/gmail-multi-mcp.git
