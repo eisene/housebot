@@ -1,0 +1,22 @@
+# Household settings for the bot's scripts. Copy to ~/.hermes/household.toml (chmod 600)
+# and replace the placeholder IDs. Read by notify/household.py; validate after editing:
+#   python3 ~/.hermes/scripts/household.py
+#
+# Discord IDs are quoted strings (Developer Mode -> right-click -> Copy ID).
+# Person keys are lowercase and are what scripts use: urgent_dm("bob", ...), mention("alice").
+# No secrets here: the bot token stays in ~/.hermes/.env as DISCORD_BOT_TOKEN.
+
+[people.alice]
+name = "Alice"
+discord_id = "111111111111111111"            # the account that gets pings and urgent DMs
+other_discord_ids = ["444444444444444444"]   # a second account that is also Alice (optional)
+
+[people.bob]
+name = "Bob"
+discord_id = "222222222222222222"
+
+[channels]
+general = "333333333333333333"
+
+[threads]
+bob-reminders = { channel = "general", id = "555555555555555555" }
